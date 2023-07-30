@@ -49,18 +49,31 @@ h1
 }
 footer
 {
+    width: 100%;
     display:flex;
     justify-content: end;
     height: 25vh;
     align-items: center;
-    background-color:#5E60CE;
+    bottom:0;
+    position:absolute;
+    text-align:right;
+    color:white;
+    background-color:#45479a;
     gap:3%;
 }
 ul
 {
+    display:flex;
+    flex-direction: column;
+    margin-right:2.5%;
     list-style: none;
 }
 .h1_footer
 {
     position: absolute;
+}
+li a
+{
+    text-decoration: none;
+    color:white;
 }
