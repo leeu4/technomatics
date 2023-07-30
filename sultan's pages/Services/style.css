@@ -1,33 +1,19 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-.header-nav{
-    display: flex;
-    justify-content: right;
-}
-.link:hover{
-transform: translate(0,-3px);
-
-}
-.link{
-transition: 0.6s;
+html{
+    scroll-behavior:smooth;
 }
 main{
     display: flex;
     align-items: center;
-    justify-content: start;
-    height: 240vh;
+    justify-content: space-around;
+    height: 280vh;
     background-color: aliceblue;
     flex-direction: column;
-    gap: 5%;
 }
 .sect-1{
     display: flex;
     justify-self: center;
     align-items: center;
-    transform: translate(0,9px);
-    width: 90%;
+    width: 95%;
     height: 90vh;
     border-radius: 20px;
     background-image: linear-gradient(100deg , #7400B8, #5E60CE,  #48BFE3, #80FFDB );
@@ -77,17 +63,18 @@ animation: move infinite 5s;
 }
 /* -----------------------القسم الثاني------------------------- */
 .sect-2{
-    width: 100%;
+    width: 95%;
     height: 40vh;
-    background-color: #111;
+    background-image: linear-gradient(100deg , #7400B8, #5E60CE,  #48BFE3, #80FFDB );
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 20px;
 }
 .card{
     height: 80%;
     width: 30%;
-    background-image: linear-gradient(0deg , #7400B8, #5E60CE,  #48BFE3, #80FFDB );
+    background-color: #ffffff28;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -109,15 +96,35 @@ width: 90%;
     height: 100vh;
     background-color: #111;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 5%;
+
+}
+.Services{
+    color: aliceblue;
+    font-size: 8rem;
+    width: 90%;
+    background-image: linear-gradient(100deg , #7500b831, #5e60ce3d,  #48bfe33c, #80ffdb45 );
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.costmer{
+    width: 100%;
+    height: 60%;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10%;
-    border-radius: 20px;
 }
 .big-card{
-    background-image: linear-gradient(180deg , #7400B8, #5E60CE,  #48BFE3, #80FFDB );
+    background-color:#5E60CE;
     width: 40%;
-    height:70%;
+    height:100%;
     border-radius: 20px;
     color: aliceblue;
     display: flex;
@@ -125,7 +132,13 @@ width: 90%;
     justify-content: space-around;
     flex-direction: column;
     cursor: pointer;
+    transition: 1s;
 }
+.big-card:hover{
+    transform: translate(0,-10px);
+
+}
+
 .big-card h2{
 font-size: 5rem;
 }
