@@ -15,16 +15,14 @@ transform: translate(0,-3px);
 }
 .link{
 transition: 0.6s;
-}
-header{
-    background-color: #5E60CE;
+font-weight: bold;
+font-size: 20px;
 }
 /* -------------------------------------------------------------------- */
 footer{
     background-color: black;
 }
 .lowlink:hover{
-
     color: #5E60CE;
     text-decoration: none;
 }
