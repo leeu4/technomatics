@@ -34,19 +34,23 @@ main
 .oco{
     text-align: right;
     font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-right:5%;
     color:#434597;
 }
 .first_img
 {
     width: 45%;
-    animation:float infinite 5s both alternate;
+    animation:float infinite 3s;
 
 }
 .second_img
 {
     position:absolute;
-    animation:float 5s infinite;
+    animation:float 3s infinite;
     width:36%;
     margin-right:75%;
 }
@@ -59,7 +63,9 @@ h1
     0%{transform:translateY(0%)}
 
     50%{transform:translateY(-5%)}
-    
+
+    75%{transform:translatY(-10%)}
+
     100%{
         transform:translateY(0%)
     }
@@ -108,31 +114,14 @@ h1
     border-radius:15px;
     width:35%;
     transition:0.3s;
-    color:black;
+    color:white;
     text-align: center;
+    background-color:rgba(0, 0, 0, 0.522);
     text-decoration: none;
-}
-.button::before
-{
-    content: "";
-    z-index: -1;
-    border-radius:15px;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgb(255, 255, 255);
-    transform:scaleY(0);
-    transform-origin:bottom;
-    transition:transform 0.3s;
-}
-.button:hover::before
-{
-    transform:scaleY(1);
 }
 .button:hover
 {
-    color:black;
+    color:rgb(255, 255, 255);
+    background-color:#00000000;
     border:solid 1px white;
 }
