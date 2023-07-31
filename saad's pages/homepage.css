@@ -7,6 +7,7 @@
 body
 {
     font-family: 'Cairo', sans-serif;
+    background-image: linear-gradient(30deg , #7400B8, #5E60CE,  #48BFE3, #80ffdb7f );
 }
 html{
     scroll-behavior: smooth;
@@ -18,20 +19,36 @@ main
     align-items: center;
     width: 100%;
     height: 79vh;
+    
 }
 .about
 {
-    text-align: right;
-    margin-left: 55%;
-    font-size:23px;
-    color:#5E60CE;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse ;
+    margin-top:5%;
+    height: 80vh;
 }
-img
-{
-    width: 35%;
-    position:absolute;
+.oco{
+    text-align: right;
+    font-size: 30px;
     margin-right:5%;
+    color:#434597;
+}
+.first_img
+{
+    width: 45%;
     animation:float infinite 5s both alternate;
+
+}
+.second_img
+{
+    position:absolute;
+    animation:float 5s infinite;
+    width:36%;
+    margin-right:75%;
 }
 h1
 {
@@ -41,39 +58,81 @@ h1
 {
     0%{transform:translateY(0%)}
 
-    50%{transform:translateY(-5%)scale(1.09)}
+    50%{transform:translateY(-5%)}
     
     100%{
         transform:translateY(0%)
     }
 }
-footer
+.second
 {
-    width: 100%;
+    height: 100vh;
     display:flex;
-    justify-content: end;
-    height: 25vh;
+    justify-content:center;
+    align-items:center;
+}
+.second_div
+{
+    text-align: right;
+    display:flex;
+    justify-content:center;
+    gap:13%;
     align-items: center;
-    bottom:0;
-    position:absolute;
-    text-align:right;
+    flex-direction:row-reverse;
+    font-size:25px;
+    border-radius: 15px;
+    width: 100vw;
+    height: 90vh;
     color:white;
-    background-color:#45479a;
-    gap:3%;
 }
-ul
+.undraw
 {
+    width: 39%;
+    animation:float 5s infinite;
+}
+.container_section
+{
+    font-size:30px;
     display:flex;
+    justify-content: center;
+    gap:5%;
+    align-items: center;
     flex-direction: column;
-    margin-right:2.5%;
-    list-style: none;
+    line-height: 50px;
+    height: 50%;
 }
-.h1_footer
+.button
 {
-    position: absolute;
-}
-li a
-{
+    position:relative;
+    border: solid 1px;
+    border-radius:15px;
+    width:35%;
+    transition:0.3s;
+    color:black;
+    text-align: center;
     text-decoration: none;
-    color:white;
+}
+.button::before
+{
+    content: "";
+    z-index: -1;
+    border-radius:15px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgb(255, 255, 255);
+    transform:scaleY(0);
+    transform-origin:bottom;
+    transition:transform 0.3s;
+}
+.button:hover::before
+{
+    transform:scaleY(1);
+}
+.button:hover
+{
+    color:black;
+    border:solid 1px white;
 }
