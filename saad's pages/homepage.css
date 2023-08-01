@@ -44,13 +44,13 @@ main
 .first_img
 {
     width: 45%;
-    animation:float infinite 3s;
+    animation:float infinite 5s;
 
 }
 .second_img
 {
     position:absolute;
-    animation:float 3s infinite;
+    animation:float 5s infinite;
     width:36%;
     margin-right:75%;
 }
