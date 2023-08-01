@@ -1,0 +1,112 @@
+main{
+width: 100%;
+height: 250vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.sect-1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hgroup{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 100%;
+}
+hgroup h1{
+font-size:  5rem;
+}
+hgroup p{
+    width: 90%;
+ font-size: 2rem;   
+}
+hgroup .more{
+width: 20%;
+height: 10%;
+background-color:#80FFDB;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+font-size: 1.5rem;
+transform: translate(0,15vh);
+transition: 0.5s;
+}
+hgroup .more:hover{
+    background-color:#6930C3;
+    color: aliceblue;
+    transform: translate(0,13vh);
+}
+.sect-1 img{
+width: 50%;
+}
+.sect-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(0deg , #80ffdb00,#80ffdbb3, #4ea7dea8 , #4ea7de00) ;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#80ffdba4;
+    border-radius: 20px;
+}
+
+.card hgroup{
+width: 80%;
+color: #6930C3;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.card hgroup h2{
+ font-size: 3rem;   
+}
+.card hgroup ol{
+font-size: 1.5rem;
+width: 110%;
+height: 80%;
+text-align: right;
+}
+.card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 90%;
+    width: auto;
+    overflow: hidden;
+}
+.go{
+    width: 45%;
+    height: 40%;
+    background-color: #ff8080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+    transform: translate(-90px,-10px);
+}
+
+.go:hover{
+    background-color: #6930C3;
+    color: #80FFDB;
+    transform: translate(-90px,-20px);    
+}

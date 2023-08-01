@@ -56,14 +56,15 @@ hgroup p{
 }
 .card h2{
 font-size: 3rem;
+padding: 4px;
 }
 .card li{
-
 font-size: 1rem;
 text-align: center;
-text-decoration: aliceblue ;
+margin: 10px  0;
+padding: 7px;
+border-right: #5E60CE 3px solid;
 }
-
 .card a{
 width: 40%;
 height: 20%;
@@ -74,9 +75,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 transition: 0.5s;
+font-size: 1rem;
 }
 .card a:hover{
     transform: translate(0,-10px);
     background-color: #48BFE3;
 
+}
+span{
+    color:#7400B8;
 }
