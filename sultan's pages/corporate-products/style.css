@@ -65,13 +65,13 @@ width: 50%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:#80ffdba4;
+    background-color:whitesmoke;
     border-radius: 20px;
 }
 
 .card hgroup{
 width: 80%;
-color: #6930C3;
+color: #5390D9;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -96,17 +96,19 @@ text-align: right;
 .go{
     width: 45%;
     height: 40%;
-    background-color: #ff8080;
+    background-color: #6930C3;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     transition: 0.5s;
     transform: translate(-90px,-10px);
+    font-size: 1.2rem;
+    color: #ffffff;
 }
 
 .go:hover{
-    background-color: #6930C3;
-    color: #80FFDB;
+    background-color:#80FFDB;
+    color:#5390D9;
     transform: translate(-90px,-20px);    
 }
