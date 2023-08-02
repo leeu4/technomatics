@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap%27');
+
+body{
+    background-image: linear-gradient(30deg , #7400B8, #5E60CE,  #48BFE3, #80ffdb7f );
+
+}
+
+#TheForm{
+    font-family: 'Cairo', sans-serif;
+    border: 0px black solid;
+    width: 500px;
+    height: 600px;
+    background-color: #64DFDF;
+    margin: auto;
+    border-radius: 50px 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#SendButton{
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px 10px ;
+}
+
+#nameinput:hover{
+    color:aqua
+}
+
+#emailinput:hover{
+    color:aqua
+}
