@@ -1,3 +1,7 @@
+*{
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
 header
 {
     width: 100%;
@@ -11,22 +15,23 @@ nav
     width: 100%;
     gap:3%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logo
 {
     width:10%;
+    margin-left: 4%;
 }
 nav a
 {
+    position:relative;
     color:black;
     text-decoration: none;
     font-size:23px;
     transition:0.3s;
     margin-right:2%;
     padding-right: 5px;
-    position:relative;
     border-right: #5E60CE 3px solid;
 }
 nav a::before
@@ -58,26 +63,36 @@ footer
     color:white;
     display:flex;
     height: 40vh;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 50%;
 }
 ul
 {
     list-style: none;
-    margin-right:4%;
     text-align: right;
+    line-height: 40px;
 }
+ul h2{
+    font-size: 30px;
+    color: #48BFE3;
+}
+
 .about_footer
 {
     text-align: right;
     margin-right:4%;
 }
+.about_footer h1{
+    border: none;
+    border-top: #5E60CE 5px solid;
+    font-size: 40px;
+}
 .footer
 {
     display:flex;
-    gap:6%;
+    gap:0%;
     justify-content: center;
-    margin-left:3%;
     align-items: center;
 
 }
@@ -104,5 +119,4 @@ li i:hover
 #about_footer1{
     position: absolute;
     margin-top:18.4%;
-    margin-left:38%;
 }
