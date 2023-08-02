@@ -101,3 +101,8 @@ li i:hover
 {
     transform:translatex(30%)
 }
+#about_footer1{
+    position: absolute;
+    margin-top:18.4%;
+    margin-left:38%;
+}
