@@ -1,19 +1,22 @@
-main{
-width: 100%;
-height: 250vh;
+main {
+    width: 100%;
+    height: 250vh;
 }
-html{
+body{
+    background-color: aliceblue;
+}
+html {
     scroll-behavior: smooth;
 }
 
-.sect-1{
+.sect-1 {
     width: 100%;
     height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-hgroup{
+hgroup {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -22,78 +25,89 @@ hgroup{
     width: 49%;
     height: 100%;
 }
-hgroup h1{
-font-size:  5rem;
+
+hgroup h1 {
+    font-size: 5rem;
 }
-hgroup p{
-    width: 90%;
- font-size: 2rem;   
+
+hgroup p {
+    width: 70%;
+    font-size: 2rem;
 }
-hgroup .more{
-width: 20%;
-height: 10%;
-background-color:#80FFDB;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 20px;
-font-size: 1.5rem;
-transform: translate(0,15vh);
-transition: 0.5s;
+
+hgroup .more {
+    width: 20%;
+    height: 10%;
+    background-color: #80FFDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    transform: translate(0, 15vh);
+    transition: 0.5s;
 }
-hgroup .more:hover{
-    background-color:#6930C3;
+
+hgroup .more:hover {
+    background-color: #6930C3;
     color: aliceblue;
-    transform: translate(0,13vh);
+    transform: translate(0, 13vh);
 }
-.sect-1 img{
-width: 50%;
+
+.sect-1 img {
+    width: 50%;
 }
-.sect-2{
+
+.sect-2 {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(0deg , #80ffdb00,#80ffdbb3, #4ea7dea8 , #4ea7de00) ;
+    background-image: linear-gradient(0deg, #80ffdb00, #4ea7dea8, #4ea7deee, #4ea7dea8, #4ea7de00);
     flex-wrap: wrap;
 }
-.card{
-    max-width: 20%;
+
+.card {
+    max-width: 21%;
     height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     border-radius: 20px;
 }
 
-.card hgroup{
-width: 80%;
-color: #5390D9;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.card hgroup {
+    width: 80%;
+    color: #5390D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.card hgroup h2{
- font-size: 3rem;   
+
+.card hgroup h2 {
+    font-size: 3rem;
 }
-.card hgroup ol{
-font-size: 1.5rem;
-width: 110%;
-height: 80%;
-text-align: right;
+
+.card hgroup ol {
+    font-size: 1.5rem;
+    width: 100%;
+    height: 80%;
+    text-align: right;
 }
-.card img{
+
+.card img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 90%;
     width: auto;
     overflow: hidden;
 }
-.go{
+
+.go {
     width: 45%;
     height: 40%;
     background-color: #6930C3;
@@ -102,13 +116,13 @@ text-align: right;
     align-items: center;
     border-radius: 20px;
     transition: 0.5s;
-    transform: translate(-90px,-10px);
+    transform: translate(-90px, -10px);
     font-size: 1.2rem;
     color: #ffffff;
 }
 
-.go:hover{
-    background-color:#80FFDB;
-    color:#5390D9;
-    transform: translate(-90px,-20px);    
+.go:hover {
+    background-color: #80FFDB;
+    color: #5390D9;
+    transform: translate(-90px, -20px);
 }
